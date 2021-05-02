@@ -4,6 +4,8 @@ The personal site for Audrianna.
 
 ## Instructions
 
+1. You should have an email from GitHub, explaining that "bytebodger invited you to bytebodger/audrianna".  Open that email and click on the "accept" text.
+1. On the GitHub screen, click on "Accept invitation".
 1. Download and install Git. It's a free tool that pushes your code into the repository (amongst other things).
 1. Once Git is installed, create a new directory on the laptop. You can call it whatever you want, but I'll assume in these instructions that the directory is called "code".
 1. Open a command prompt (the black terminal application that you use to type in commands on the command line).
@@ -24,3 +26,10 @@ The personal site for Audrianna.
 1. Back in Atom, paste that token into the "Enter your token..." field, then click "Login".
 1. Click the "Git" button in the bottom-right corner of Atom.
 1. Under "Unstaged Changes", you should see "index.html", because you have made changes to the file that have not yet been committed to the repository.
+1. Click the "Stage All" button.
+1. You should now see "index.html" under "Staged Changes".
+1. Type something (anything) in the "Commit message" field.
+1. Click the "Commit to main" button.
+1. In the bottom-right corner, you should now have a button that says "Push 1".  Click that button.
+1. It will work for a few seconds, and then the Push button should go away (because there's no new content to be pushed).
+1. 
