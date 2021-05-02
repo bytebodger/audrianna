@@ -9,3 +9,5 @@ The personal site for Audrianna.
 1. Open a command prompt (the black terminal application that you use to type in commands on the command line).
 1. Navigate to the new directory. You can do this by typing in `cd C:\code`.
 1. Once you're _in_ the new directory, type this command: `git clone https://github.com/bytebodger/audrianna.git`. That will bring a local copy of the site down to your laptop. It will also create a "link" between the local code and the remote repository.
+1. Open Atom and select "Open a Project".
+
