@@ -32,4 +32,10 @@ The personal site for Audrianna.
 1. Click the "Commit to main" button.
 1. In the bottom-right corner, you should now have a button that says "Push 1".  Click that button.
 1. It will work for a few seconds, and then the Push button should go away (because there's no new content to be pushed).
-1. 
+1. Wait 3-4 minutes, then go to https://audrianna.com.  You should be able to see your changes.
+
+## General "Flow"
+
+What's happening is that AWS is setup to automatically rebuild and redeploy your site any time there are new changes to the "main" branch.  When you go through that process of staging your changes, then committing them to main, then pushing them, you are updating "main" and, by extension, you are updating the content on your site.  You have to follow those steps any time you want to see new changes to your live site.  If you only _commit_ the code, without also _pushing_ it, you won't see the changes on the live site.
+
+You can add as many directories and files as you need.  You'll just need to be sure that you add those new files/directories to the repository through the same stage/commit/push process.
